@@ -156,7 +156,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            text-fill-color: transparent;
         }
         
         .profile-bio p {
@@ -316,6 +315,22 @@
             max-width: 550px;
             margin: 0 auto 2rem;
         }
+        
+        .hero-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--heading-color);
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .hero-button:hover {
+            background-color: var(--primary-hover-color);
+            transform: translateY(-3px);
+        }
 
         /* Footer */
         .footer {
@@ -474,7 +489,7 @@
                 <p class="section-subtitle">Get In Touch</p>
                 <h2>Let's Collaborate</h2>
                 <p>I'm currently available for freelance projects and open to discussing new opportunities. Feel free to reach out!</p>
-                <a href="ldrarivunithi@gmail.com" class="hero-button">Email Me</a>
+                <a href="mailto:ldrarivunithi@gmail.com" class="hero-button">Email Me</a>
             </div>
         </section>
 
@@ -483,9 +498,10 @@
     <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Arivunithi LDR </p>
+            <p>&copy; 2025 Arivunithi </p>
         </div>
     </footer>
 
 </body>
 </html>
+
